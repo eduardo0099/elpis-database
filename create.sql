@@ -735,3 +735,16 @@ ENGINE = InnoDB;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+
+ALTER TABLE `dbsw`.`estadoActividad` RENAME TO  `dbsw`.`estado_actividad` ;
+
+ALTER TABLE `dbsw`.`estadoAyudaEconomica` RENAME TO  `dbsw`.`estado_ayuda_economica` ;
+
+ALTER TABLE `dbsw`.`estadoInvestigacion` RENAME TO  `dbsw`.`estado_investigacion` ;
+
+ALTER TABLE `dbsw`.`tipoActividad` RENAME TO  `dbsw`.`tipo_actividad` ;
+
+ALTER TABLE `dbsw`.`tipoCurso` RENAME TO  `dbsw`.`tipo_curso` ;
+
+ALTER TABLE `dbsw`.`tipoProfesor` RENAME TO  `dbsw`.`tipo_profesor` ;

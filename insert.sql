@@ -19,8 +19,8 @@ INSERT INTO colaborador (id_persona) VALUES (2);
 #select * from colaborador;
 
 #insertar tipo profesor:
-INSERT INTO tipoProfesor(descripcion,horasDictado) VALUES ('TC',10);
-INSERT INTO tipoProfesor(descripcion,horasDictado) VALUES ('TPA',6);
+INSERT INTO tipo_profesor(descripcion,horasDictado) VALUES ('TC',10);
+INSERT INTO tipo_profesor(descripcion,horasDictado) VALUES ('TPA',6);
 #select * from tipoprofesor;
 
 
@@ -40,9 +40,9 @@ INSERT INTO facultad (nombre) VALUES ('Ciencias sociales');
 #select * from facultad;
 
 #tipocurso
-INSERT INTO tipoCurso(descripcion) VALUES ('Pregrado');
-INSERT INTO tipoCurso(descripcion) VALUES ('Posgrado');
-INSERT INTO tipoCurso(descripcion) VALUES ('Otros');
+INSERT INTO tipo_curso(descripcion) VALUES ('Pregrado');
+INSERT INTO tipo_curso(descripcion) VALUES ('Posgrado');
+INSERT INTO tipo_curso(descripcion) VALUES ('Otros');
 #select * from tipoCurso;
 
 
@@ -106,8 +106,8 @@ INSERT INTO encuesta (id_horario_profesor,puntaje,comentario)
 
 
 #estado_investigacion
-INSERT INTO estadoInvestigacion (descripcion)VALUES ('Finalizada');
-INSERT INTO estadoInvestigacion (descripcion)VALUES ('En proceso');
+INSERT INTO estado_investigacion (descripcion)VALUES ('Finalizada');
+INSERT INTO estado_investigacion (descripcion)VALUES ('En proceso');
 #select * from estadoinvestigacion;
 
 
@@ -136,16 +136,16 @@ INSERT INTO profesor_investigacion(id_profesor,id_investigacion) VALUES (2,3);
 #sin errores
 
 #estadoactividad
-INSERT INTO estadoActividad (descripcion) VALUES ("Asistio");
-INSERT INTO estadoActividad (descripcion) VALUES ("Cancelada");
-INSERT INTO estadoActividad (descripcion) VALUES ("Asistira");
+INSERT INTO estado_actividad (descripcion) VALUES ("Asistio");
+INSERT INTO estado_actividad (descripcion) VALUES ("Cancelada");
+INSERT INTO estado_actividad (descripcion) VALUES ("Asistira");
 #select * from estadoActividad;
 
 #tipoActividad
-INSERT INTO tipoActividad (descripcion) VALUES ("Congreso");
-INSERT INTO tipoActividad (descripcion) VALUES ("Taller");
-INSERT INTO tipoActividad (descripcion) VALUES ("Visita");
-INSERT INTO tipoActividad (descripcion) VALUES ("Capacitacion");
+INSERT INTO tipo_actividad (descripcion) VALUES ("Congreso");
+INSERT INTO tipo_actividad (descripcion) VALUES ("Taller");
+INSERT INTO tipo_actividad (descripcion) VALUES ("Visita");
+INSERT INTO tipo_actividad (descripcion) VALUES ("Capacitacion");
 #select * from tipoActividad;
 
 
